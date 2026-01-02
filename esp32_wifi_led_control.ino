@@ -16,7 +16,7 @@ void setup() {
   }
 
   server.begin();
-}
+ }
 
 void loop() {
   WiFiClient client = server.available();
